@@ -1,0 +1,32 @@
+diff -ruN hscolour-1.21/Language/Haskell/HsColour/MIRC.hs hscolour-1.21-new/Language/Haskell/HsColour/MIRC.hs
+--- hscolour-1.21/Language/Haskell/HsColour/MIRC.hs	2015-02-25 11:21:01.000000000 -0500
++++ hscolour-1.21-new/Language/Haskell/HsColour/MIRC.hs	2015-03-16 23:52:44.856579122 -0400
+@@ -50,18 +50,18 @@
+                                                    : code bg blink++s++"\^O"
+ 
+ code :: Colour -> Bool -> String
+-code Black   False = "1"
+-code Red     False = "5"
+-code Green   False = "3"
+-code Yellow  False = "7"
+-code Blue    False = "2"
+-code Magenta False = "6"
++code Black   False = "01"
++code Red     False = "05"
++code Green   False = "03"
++code Yellow  False = "07"
++code Blue    False = "02"
++code Magenta False = "06"
+ code Cyan    False = "10"
+-code White   False = "0"
++code White   False = "00"
+ code Black   True  = "14"
+-code Red     True  = "4"
+-code Green   True  = "9"
+-code Yellow  True  = "8"
++code Red     True  = "04"
++code Green   True  = "09"
++code Yellow  True  = "08"
+ code Blue    True  = "12"
+ code Magenta True  = "13"
+ code Cyan    True  = "11"
