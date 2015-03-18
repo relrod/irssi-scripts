@@ -1,8 +1,7 @@
 # (c) 2015 Ricky Elrod <relrod@redhat.com>, released under GPL
 # (same as HsColour itself).
 #
-# NOTE: As of this writing, this requires patching HsColour to work correctly.
-# See hscolour.patch in the GitHub repository from which this script was found.
+# NOTE: Requires HsColour >= 1.22
 
 use warnings;
 use strict;
