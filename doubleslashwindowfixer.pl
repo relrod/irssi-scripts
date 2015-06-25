@@ -11,7 +11,7 @@
 # having the creativity that I did when coming up with this complex, wonderous
 # beast of a script.
 #
-# (c) 2013 Ricky Elrod <ricky@elrod.me>, released under BSD-3.
+# (c) 2015 Ricky Elrod <ricky@elrod.me>, released under BSD-3.
 
 use warnings;
 use strict;
@@ -29,7 +29,7 @@ our %IRSSI = (
 
 sub my_handler {
   my ($text, $server, $win_item) = @_;
-  if ($text =~ m/^\/\d+\/\d+$/) {
+  if ($text =~ m/^\/\w+\/\w+$/i) {
     Irssi::signal_stop();
     return;
   }
