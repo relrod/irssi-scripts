@@ -19,8 +19,8 @@ use Irssi;
 
 our $VERSION = '1.0.0';
 our %IRSSI = (
-  authors     => 'Ricky Elrod',
-  contact     => 'ricky@elrod.me',
+  authors     => 'Rick Elrod',
+  contact     => 'rick@elrod.me',
   name        => 'doubleslashwindowfixer',
   description => 'Stop looking like a fool by sending /12/12 when trying to switch to window 12',
   license     => 'BSD3',
