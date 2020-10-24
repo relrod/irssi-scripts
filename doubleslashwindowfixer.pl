@@ -11,7 +11,7 @@
 # having the creativity that I did when coming up with this complex, wonderous
 # beast of a script.
 #
-# (c) 2015 Ricky Elrod <ricky@elrod.me>, released under BSD-3.
+# (c) 2015 Rick Elrod <rick@elrod.me>, released under BSD-3.
 
 use warnings;
 use strict;
